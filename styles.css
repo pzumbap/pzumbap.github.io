@@ -63,4 +63,117 @@
     padding: 20px 0;
     text-align: center;
   }
+
+
+  .download-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .download-btn:hover {
+    background-color: #555;
+  }
+
+
+  #technical-skills {
+    margin-bottom: 50px;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skills-column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .skill-group {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .skill-group h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-group p {
+    line-height: 1.6;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .skills-column {
+      margin: 0;
+    }
+  
+    .skills-container {
+      flex-direction: column;
+    }
+  }
+  
+
+
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    flex: 1;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .project-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    margin-bottom: 20px;
+  }
+  
+  .project-link {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .project-link:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .projects-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
   
