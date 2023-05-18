@@ -176,4 +176,33 @@
       align-items: center;
     }
   }
+
+
+
+  #contact {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .contact-icon {
+    margin-right: 10px;
+  }
+  
+  .contact-item a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    color: #555;
+  }
+  
   
