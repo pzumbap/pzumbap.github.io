@@ -22,9 +22,10 @@
     padding: 0 50px;
   }
   
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
+  .logo img {
+    height: 30px;  /* Adjust as needed */
+    width: 30px;   /* Adjust as needed */
+    margin-right: 10px;  /* Creates some space between the logo and the text */
   }
   
   .menu {
