@@ -23,9 +23,9 @@
   }
   
   .logo img {
-    height: 30px;  /* Adjust as needed */
-    width: 30px;   /* Adjust as needed */
-    margin-right: 10px;  /* Creates some space between the logo and the text */
+    height: 60px;  /* Adjust as needed */
+    width: 160px;   /* Adjust as needed */
+    margin-right: 1px;  /* Creates some space between the logo and the text */
   }
   
   .menu {
