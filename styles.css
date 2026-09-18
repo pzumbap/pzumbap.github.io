@@ -20,7 +20,7 @@ body {
 }
 
 main {
-  width: min(640px, calc(100% - 40px));
+  width: min(680px, calc(100% - 40px));
   margin: 0 auto;
   padding: 4.5rem 0 5rem;
 }
@@ -59,33 +59,65 @@ ul {
   list-style: none;
 }
 
-li {
+.stack li,
+.work li {
   padding: 0.85rem 0;
   border-top: 1px solid var(--line);
 }
 
-li:last-child {
+.stack li:last-child,
+.work li:last-child {
   border-bottom: 1px solid var(--line);
 }
 
-li a {
+.stack a,
+.work-copy a,
+.links a {
   color: var(--text);
   font-weight: 600;
   text-decoration: none;
 }
 
-li a:hover,
-li a:focus-visible,
+.stack a:hover,
+.stack a:focus-visible,
+.work-copy a:hover,
+.work-copy a:focus-visible,
 .links a:hover,
 .links a:focus-visible {
   text-decoration: underline;
 }
 
-li span {
+.stack span,
+.work-copy span {
   display: block;
   margin-top: 0.2rem;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.work li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.work-copy {
+  min-width: 0;
+}
+
+.work-tools {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+}
+
+.work-tools img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 
 .links {
@@ -93,10 +125,6 @@ li span {
   flex-wrap: wrap;
   gap: 0.85rem 1.25rem;
   margin: 0;
-}
-
-.links a {
-  color: var(--text);
 }
 
 @media (max-width: 520px) {
@@ -107,5 +135,10 @@ li span {
 
   h1 {
     font-size: 1.5rem;
+  }
+
+  .work-tools img {
+    width: 24px;
+    height: 24px;
   }
 }
