@@ -1,7 +1,8 @@
 :root {
   --text: #1a1a1a;
   --muted: #5c5c5c;
-  --line: #e6e6e6;
+  --line: #e4e4e4;
+  --panel: #f7f7f5;
 }
 
 * {
@@ -20,36 +21,86 @@ body {
 }
 
 main {
-  width: min(680px, calc(100% - 40px));
+  width: min(720px, calc(100% - 40px));
   margin: 0 auto;
-  padding: 4.5rem 0 5rem;
+  padding: 3.5rem 0 5rem;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  gap: 1.35rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.portrait {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  object-position: 50% 18%;
+  border-radius: 50%;
+}
+
+.intro-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .name {
-  margin: 0 0 0.35rem;
+  margin: 0;
   color: var(--muted);
   font-size: 0.95rem;
 }
 
+.resume {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0 0.85rem;
+  border-radius: 999px;
+  background: var(--text);
+  color: #fff;
+  font-size: 0.86rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.resume:hover,
+.resume:focus-visible {
+  background: #333;
+}
+
 h1 {
-  margin: 0 0 1rem;
+  margin: 0.45rem 0 0.7rem;
   font-size: 1.75rem;
   font-weight: 650;
   letter-spacing: -0.03em;
   line-height: 1.2;
 }
 
-h2 {
-  margin: 2.4rem 0 0.8rem;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.lede {
+  margin: 0;
   color: var(--muted);
 }
 
-.lede {
-  margin: 0;
+section {
+  margin-top: 1.15rem;
+  padding: 1.15rem 1.2rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+h2 {
+  margin: 0 0 0.85rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--muted);
 }
 
@@ -61,13 +112,13 @@ ul {
 
 .stack li,
 .work li {
-  padding: 0.85rem 0;
+  padding: 0.8rem 0;
   border-top: 1px solid var(--line);
 }
 
 .stack li:last-child,
 .work li:last-child {
-  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.15rem;
 }
 
 .stack a,
@@ -127,14 +178,24 @@ ul {
   margin: 0;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 560px) {
   main {
     width: calc(100% - 32px);
-    padding: 2.5rem 0 3.5rem;
+    padding: 2rem 0 3.5rem;
+  }
+
+  .intro {
+    grid-template-columns: 84px 1fr;
+    gap: 1rem;
+  }
+
+  .portrait {
+    width: 84px;
+    height: 84px;
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
   }
 
   .work-tools img {
