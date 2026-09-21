@@ -104,21 +104,77 @@ h2 {
   color: var(--muted);
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+.path-lede {
+  margin: 0 0 0.35rem;
+  color: var(--muted);
+}
+
+.path li,
 .stack li,
 .work li {
   padding: 0.8rem 0;
   border-top: 1px solid var(--line);
 }
 
+.path li:last-child,
 .stack li:last-child,
 .work li:last-child {
   padding-bottom: 0.15rem;
+}
+
+.path li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.85rem 1rem;
+  align-items: start;
+}
+
+.path-copy strong {
+  display: block;
+  font-weight: 600;
+}
+
+.path-copy span {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.path-orgs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem 0.7rem;
+  margin-top: 0.55rem;
+}
+
+.path-orgs img {
+  width: auto;
+  height: 26px;
+  max-width: 92px;
+  object-fit: contain;
+}
+
+.path-org-dark {
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  background: #0b1020;
+}
+
+.path-logo {
+  width: auto;
+  height: 28px;
+  max-width: 118px;
+  margin-top: 0.15rem;
+  object-fit: contain;
 }
 
 .stack a,
@@ -201,5 +257,15 @@ ul {
   .work-tools img {
     width: 24px;
     height: 24px;
+  }
+
+  .path li {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .path-logo {
+    justify-self: start;
+    height: 24px;
+    max-width: 110px;
   }
 }
