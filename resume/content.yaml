@@ -1,0 +1,88 @@
+basics:
+  name: Pablo X. Zumba
+  email: pzumbap@gmail.com
+  location: Tampa, FL
+  portfolio:
+    label: pzumbap.github.io
+    url: https://pzumbap.github.io/
+
+section_titles:
+  education: EDUCATION
+  skills: TECHNICAL SKILLS
+  projects: ACADEMIC PROJECTS
+  experience: WORK EXPERIENCE
+  accomplishments: ACCOMPLISHMENTS
+
+education:
+  - degree: Master of Science in Business Analytics and Information Systems
+    institution: University of South Florida
+    location: Tampa, FL
+    year: "2023"
+  - degree: Bachelor of Engineering in Electronics and Telecommunications
+    institution: Universidad Politecnica Salesiana
+    location: Cuenca, Ecuador
+    year: "2016"
+  - degree: 'Associate in Applied Science, Biomedical Service Technician: Clinical Engineering'
+    institution: Bates Technical College
+    location: Tacoma, WA
+    year: "2018"
+
+skills:
+  - category: Cloud & Ingestion
+    details: 'AWS: S3, Glue, EKS/Kubernetes, Lambda, CloudWatch, Kinesis, EventBridge; Apache Iceberg tables.'
+  - category: Warehouse & Modeling
+    details: Snowflake, dbt, SQL, data modeling, and data architecture.
+  - category: Orchestration & Streaming
+    details: Apache Airflow; event-driven and streaming Amazon JWO POS pipelines.
+  - category: Data Quality & Operations
+    details: POS reporting reconciliation (<1% variance); monitoring, maintenance, and DataOps.
+  - category: Platform Engineering
+    details: Security-aware design, data management, infrastructure, and software engineering.
+  - category: Languages
+    details: Python, SQL, PySpark, and Git.
+
+projects:
+  - title: MLB Attendance Prediction Project
+    details: Developing machine learning algorithms in Databricks and Apache Spark for the 2016 Baseball Season to improve profitability. Highest accuracy model ~83%.
+  - title: Inmate Reintegration Program Database Design
+    details: Database design, development, and implementation for an inmate reintegration program using draw.io and Microsoft SQL Server.
+  - title: Intelligent Tourist Website
+    details: Developed a website using HTML5, CSS3, and JavaScript to suggest tours and excursions in groups based on solo-traveler preferences.
+  - title: Causes of Divorce in the US
+    details: Created a report on the reasons for divorce in the United States using SQLite, RStudio, Python, and Tableau to identify significant factors during marital therapy.
+
+experience:
+  - title: Data Engineer
+    organization: CDAI
+    dates: August 2025 – Present
+    bullets:
+      - Build and scale end-to-end POS data pipelines across multiple POS systems and clients, from AWS ingestion through Snowflake and dbt modeling.
+      - Strengthen data quality and governance by reconciling pipeline outputs with POS reporting portals, maintaining variance below 1%.
+      - Design and maintain scalable data architecture, infrastructure, orchestration, and DataOps practices that support analytics and data science use cases.
+  - title: Data Engineer
+    organization: E15 Group
+    dates: June 2023 – August 2025
+    bullets:
+      - Built and maintained end-to-end data pipelines and foundational data systems for analytics and data science use cases.
+      - Developed ingestion, data modeling, orchestration, infrastructure, and DataOps capabilities with security and data management considered throughout.
+  - title: Biomedical Service Technician
+    organization: Crothall Healthcare
+    location: Tampa, FL
+    dates: March 2022 – May 2023
+    bullets:
+      - Tracked, monitored, and analyzed work orders and incidents in CMMS software.
+      - Supported preventive maintenance on Stryker ICU beds and stretchers, increasing the Clinical Engineering department KPI by 25%.
+  - title: Electronic Technician II
+    organization: Philips Invivo
+    location: Gainesville, FL
+    dates: April 2021 – March 2022
+    bullets:
+      - Increased team line-production productivity by 20% through meticulous assembly, soldering, and calibration of MRI modules while adhering to Philips/Invivo and IPC standards.
+      - Analyzed electromagnetic units through network analyzers, oscilloscopes, and multimeters.
+
+accomplishments:
+  - 'Google Data Analytics Professional Certificate – 2021: Data cleaning, analysis, and visualization with SQL, R, and Tableau; communicating findings through dashboards and visualizations.'
+  - Distinguished as a top-performing student and member of Beta Gamma Sigma (ΒΓΣ) for business excellence and Phi Theta Kappa (ΦΘΚ) for academic achievement in associate degree programs.
+  - Received All-Washington Academic Excellence Team Award as one of the top three students at Bates Technical College in 2018.
+  - 'Published research paper, "Analysis of the Optimal Trajectory in Weightlifting: Snatch Style," in the 2015 CHILEAN Conference on Electrical, Electronics Engineering, Information and Communication Technologies (CHILECON). DOI: 10.1109/Chilecon.2015.7400379'
+  - 'Published research paper, "Chromatic Dispersion Analysis in a WDM-PON Network Using FBG Compensators," in IEEE Latin America Transactions. DOI: 10.1109/TLA.2016.7555260'
