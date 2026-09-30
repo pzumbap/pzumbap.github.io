@@ -1,0 +1,48 @@
+Pablo X. Zumba
+Data Engineer | AWS | Snowflake | dbt
+Tampa, FL | pzumbap@gmail.com | pzumbap.github.io
+linkedin.com/in/pablo-zumba-946498158
+
+PROFESSIONAL SUMMARY
+Data Engineer with 3+ years building cloud data pipelines for analytics and data science. Specializes in point-of-sale (POS) data integration, Snowflake and dbt modeling, AWS infrastructure, and reporting reconciliation.
+
+PROFESSIONAL EXPERIENCE
+Data Engineer | CDAI | August 2025 – Present
+- Build and scale POS pipelines for a platform serving 50+ clients across 15 systems and variants, processing tens of gigabytes daily.
+- Connect AWS ingestion to Snowflake warehousing and dbt transformations for analytics and data science.
+- Maintain reporting variance below 1% by reconciling pipeline outputs against POS reporting portals.
+- Design and maintain data architecture, infrastructure, orchestration, and DataOps workflows.
+
+Data Engineer | E15 Group | June 2023 – August 2025
+- Built and maintained end-to-end pipelines and data systems for analytics and data science.
+- Developed ingestion, modeling, orchestration, and infrastructure with security and data management built into ongoing operations.
+
+Biomedical Service Technician | Crothall Healthcare | Tampa, FL | March 2022 – May 2023
+- Supported preventive maintenance on Stryker ICU beds and stretchers, contributing to a 25% department KPI improvement; tracked and analyzed work orders and incidents in CMMS software.
+
+Electronic Technician II | Philips Invivo | Gainesville, FL | April 2021 – March 2022
+- Contributed to a 20% increase in team production productivity through MRI module assembly, soldering, and calibration, adhering to Philips/Invivo and IPC standards.
+
+
+TECHNICAL SKILLS
+Languages & Tools: Python, SQL, PySpark, Git.
+Cloud & Storage: Amazon Web Services (AWS): S3, Glue, Lambda, Kinesis, EventBridge, CloudWatch, EKS (Kubernetes); Apache Iceberg.
+Warehousing & Transformation: Snowflake, dbt, data modeling, ETL/ELT pipelines.
+Orchestration & Operations: Apache Airflow, event-driven pipelines, streaming, data quality, reconciliation, monitoring, DataOps.
+POS Systems: Amazon JWO, Mashgin, AiFi, Square, MICROS, Retail Cloud (selected).
+Academic Tools: Apache Spark, Databricks, Microsoft SQL Server, SQLite, R, Tableau.
+
+EDUCATION
+Master of Science in Business Analytics and Information Systems
+University of South Florida | Tampa, FL | 2023
+Associate in Applied Science, Biomedical Service Technician: Clinical Engineering
+Bates Technical College | Tacoma, WA | 2018
+Bachelor of Engineering in Electronics and Telecommunications
+Universidad Politecnica Salesiana | Cuenca, Ecuador | 2016
+
+SELECTED ACADEMIC PROJECTS
+Inmate Reintegration Program Database: Designed and implemented a relational database using Microsoft SQL Server and draw.io.
+MLB Attendance Prediction: Developed machine learning models using Databricks and Apache Spark to analyze attendance for the 2016 baseball season.
+
+CERTIFICATIONS
+Google Data Analytics Professional Certificate | 2021

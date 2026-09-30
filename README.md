@@ -2,7 +2,7 @@
 
 Personal site: [pzumbap.github.io](https://pzumbap.github.io/)
 
-The editable résumé source and PDF export instructions are in [resume/README.md](resume/README.md).
+The editable résumé, PDF export instructions, and supporting job-search materials are in [resume/README.md](resume/README.md).
 
 Project files live in:
 
