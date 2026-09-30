@@ -16,8 +16,8 @@ I'd welcome a conversation about your data platform and where I could contribute
 
 Best,
 
-Pablo X. Zumba  
-pzumbap@gmail.com  
+Pablo X. Zumba<br>
+pzumbap@gmail.com<br>
 [pzumbap.github.io](https://pzumbap.github.io/)
 
 ---

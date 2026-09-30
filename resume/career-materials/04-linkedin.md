@@ -18,7 +18,7 @@ Earlier roles in biomedical service and electronics gave me experience with main
 
 I'm interested in Data Engineer roles where I can build reliable pipelines, improve data quality, and make complex source data useful to the people who depend on it.
 
-Portfolio: https://pzumbap.github.io/  
+Portfolio: https://pzumbap.github.io/<br>
 Contact: pzumbap@gmail.com
 
 ## Experience
